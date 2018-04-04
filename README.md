@@ -1,6 +1,6 @@
 # Two-part-model
 
-、、、
+```
 import rpy2.robjects as robjects
 import rpy2.robjects.packages as rpackages
 from rpy2.robjects.vectors import StrVector
@@ -156,4 +156,4 @@ print utils.head(stats.fitted(H3D)) ## esimtated expected value for P(Y=0) and  
 ##m model selection##
 print mhurdle.vuongtest(S2D, P2D) ## p2d is better than s2d. non-nested model selection
 print mhurdle.vuongtest(H3D, H3I, type="nested") ## compared two nested model. Can also check LR test using other package
-'''
+```
